@@ -1,23 +1,15 @@
 package main
 
 import (
-
-	// Built-in Golang packages
-	"context"   // manage multiple requests
-	"fmt"       // Println() function
-	"io/ioutil" // io.ReadFile
-	"log"
-	"reflect" // get an object type
-	"time"
-
-	// Import the JSON
-
-	//encoding package
+	"context"
 	"encoding/json"
-
-	// Official 'mongo-go-driver' packages
+	"fmt"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
+	"io/ioutil"
+	"log"
+	"reflect"
+	"time"
 )
 
 type MongoFields struct {
