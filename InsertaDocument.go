@@ -1,13 +1,8 @@
 /*
 https://www.mongodb.com/docs/drivers/go/current/fundamentals/crud/write-operations/insert/#std-label-golang-insert-guide
+
+
 */
-
-
-
-
-
-
-
 
 package main
 
